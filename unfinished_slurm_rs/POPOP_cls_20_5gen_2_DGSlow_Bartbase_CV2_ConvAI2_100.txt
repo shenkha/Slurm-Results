@@ -1,0 +1,275 @@
+
+Dialogue history: <PS>i dance on the weekends. i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i hate the color orange.
+U--Hi, how do you do? :upside_down_face: 
+(Ref: ['hey, what's your favourite colour?', ...])
+G--Hi! I'm good! And you?
+(length: 8, latency: 0.076, BLEU: 0.160, ROUGE: 0.000, METEOR: 0.062)
+U'--so, how do you do? :upside_down_face: (cosine: 0.969)
+G'--hello! i’m doing good despite my favourite colour orange
+Attack failed!
+(length: 10, latency: 0.077, BLEU: 0.166, ROUGE: 0.250, METEOR: 0.223)
+
+Dialogue history: <PS>i dance on the weekends. i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i hate the color orange.<SEP>Hi, how do you do? :upside_down_face:<SEP>hey, what's your favourite colour?
+U--off topic   what is your favourite colour   
+(Ref: ['you think this is off topic?', ...])
+G--off topic
+(length: 2, latency: 0.025, BLEU: 0.082, ROUGE: 0.500, METEOR: 0.288)
+U'--off to   what is your favorite colour   (cosine: 0.834)
+G'--off topic. what is your job?
+(length: 8, latency: 0.059, BLEU: 0.240, ROUGE: 0.333, METEOR: 0.445)
+
+Dialogue history: <PS>i dance on the weekends. i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i hate the color orange.<SEP>Hi, how do you do? :upside_down_face:<SEP>hey, what's your favourite colour?<SEP>off topic   what is your favourite colour  <SEP>you think this is off topic?
+U--i could never handle that   
+(Ref: ['i compete in dog agility things', ...])
+G--i compete in dog agility things
+(length: 6, latency: 0.044, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.998)
+U'--i could never do that   (cosine: 0.807)
+G'--i compete in dog agility things
+Attack failed!
+(length: 6, latency: 0.047, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.998)
+
+Dialogue history: <PS>i dance on the weekends. i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i hate the color orange.<SEP>Hi, how do you do? :upside_down_face:<SEP>hey, what's your favourite colour?<SEP>off topic   what is your favourite colour  <SEP>you think this is off topic?<SEP>i could never handle that  <SEP>i compete in dog agility things
+U--do you have a hobby   mine is competing in dog agility   makes the time pass       
+(Ref: ['yes i like to suck dicks', ...])
+G--yes i like to suck dicks
+(length: 6, latency: 0.050, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.998)
+U'--do you have a hobby   mine is competing in dog show   makes the dog pass       (cosine: 0.836)
+G'--yes i like to suck dicks
+Attack failed!
+(length: 6, latency: 0.059, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.998)
+
+Dialogue history: <PS>i dance on the weekends. i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i hate the color orange.<SEP>Hi, how do you do? :upside_down_face:<SEP>hey, what's your favourite colour?<SEP>off topic   what is your favourite colour  <SEP>you think this is off topic?<SEP>i could never handle that  <SEP>i compete in dog agility things<SEP>do you have a hobby   mine is competing in dog agility   makes the time pass      <SEP>yes i like to suck dicks
+U--i think its ok   my husband doesn t like salads too much   
+(Ref: ['does he like to have his salad tossed', ...])
+G--does he like to have his salad tossed
+(length: 8, latency: 0.078, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.999)
+U'--i hope its ok   my husband don t like salads too much   (cosine: 0.947)
+G'--does he like to have his salad tossed
+Attack failed!
+(length: 8, latency: 0.058, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.999)
+
+Dialogue history: <PS>i dance on the weekends. i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i hate the color orange.<SEP>Hi, how do you do? :upside_down_face:<SEP>hey, what's your favourite colour?<SEP>off topic   what is your favourite colour  <SEP>you think this is off topic?<SEP>i could never handle that  <SEP>i compete in dog agility things<SEP>do you have a hobby   mine is competing in dog agility   makes the time pass      <SEP>yes i like to suck dicks<SEP>i think its ok   my husband doesn t like salads too much  <SEP>does he like to have his salad tossed
+U--i only eat salads   i have to maintain my figure 
+(Ref: ['what number is your figure', ...])
+G--what number is your figure
+(length: 5, latency: 0.039, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.996)
+U'--i only eat if   i have to stretch my figure (cosine: 0.701)
+G'--what number is your figure
+Attack failed!
+(length: 5, latency: 0.039, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.996)
+
+Dialogue history: <PS>i dance on the weekends. i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i hate the color orange.<SEP>Hi, how do you do? :upside_down_face:<SEP>hey, what's your favourite colour?<SEP>off topic   what is your favourite colour  <SEP>you think this is off topic?<SEP>i could never handle that  <SEP>i compete in dog agility things<SEP>do you have a hobby   mine is competing in dog agility   makes the time pass      <SEP>yes i like to suck dicks<SEP>i think its ok   my husband doesn t like salads too much  <SEP>does he like to have his salad tossed<SEP>i only eat salads   i have to maintain my figure<SEP>what number is your figure
+U--i like 😻 swimming in the ocean and looking for sharks reading moby dick and dancing 
+(Ref: ['this dialogue is pretty meaningless', ...])
+G--this dialogue is pretty meaningless
+(length: 5, latency: 0.039, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.996)
+U'--i like 😻 swimming in the ocean and looking for pirates reading moby dick and dancing (cosine: 0.953)
+G'--that's not a good thing
+(length: 5, latency: 0.052, BLEU: 0.230, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>i wear a motorbike helmet to protect my head. my main transportation is my motorbike. i have light skin with big brown eyes. i waitress during the day to supplement my income. its red with blue stripe so it shiny when i race.
+U--i hate math class. 
+(Ref: ['An I love! Where are you from?', ...])
+G--Why?
+(length: 2, latency: 0.027, BLEU: 0.023, ROUGE: 0.000, METEOR: 0.060)
+U'--i hate biology 101. (cosine: 0.652)
+G'--I am sorry to hear that.
+Attack failed!
+(length: 7, latency: 0.071, BLEU: 0.140, ROUGE: 0.154, METEOR: 0.057)
+
+Dialogue history: <PS>i wear a motorbike helmet to protect my head. my main transportation is my motorbike. i have light skin with big brown eyes. i waitress during the day to supplement my income. its red with blue stripe so it shiny when i race.<SEP>i hate math class.<SEP>An I love! Where are you from?
+U--i am not sure what that means . 
+(Ref: ['How old are you?', ...])
+G--What do you think about ConvAI competition?
+(length: 8, latency: 0.086, BLEU: 0.177, ROUGE: 0.182, METEOR: 0.189)
+U'--i am not told what that was . (cosine: 0.735)
+G'--What is your name?
+(length: 5, latency: 0.043, BLEU: 0.273, ROUGE: 0.000, METEOR: 0.100)
+
+Dialogue history: <PS>i wear a motorbike helmet to protect my head. my main transportation is my motorbike. i have light skin with big brown eyes. i waitress during the day to supplement my income. its red with blue stripe so it shiny when i race.<SEP>i hate math class.<SEP>An I love! Where are you from?<SEP>i am not sure what that means .<SEP>How old are you?
+U--that is cool , i am not into sports , i am a pro soccer player 
+(Ref: ['What club are you playing for?', ...])
+G--What club are you playing for?
+(length: 7, latency: 0.050, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.999)
+U'--that is all , i am not into sports , i am a pro soccer player (cosine: 0.870)
+G'--What club are you playing for?
+Attack failed!
+(length: 7, latency: 0.049, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.999)
+
+Dialogue history: <PS>i wear a motorbike helmet to protect my head. my main transportation is my motorbike. i have light skin with big brown eyes. i waitress during the day to supplement my income. its red with blue stripe so it shiny when i race.<SEP>i hate math class.<SEP>An I love! Where are you from?<SEP>i am not sure what that means .<SEP>How old are you?<SEP>that is cool , i am not into sports , i am a pro soccer player<SEP>What club are you playing for?
+U--that's cool , i am in college , and i am in college , and you ? 
+(Ref: ['I am not in college', ...])
+G--I am not in college.
+(length: 6, latency: 0.046, BLEU: 0.809, ROUGE: 1.000, METEOR: 0.976)
+U'--that's true , i am in college , and i am in college , and you ? (cosine: 0.907)
+G'--I am not in college.
+Attack failed!
+(length: 6, latency: 0.046, BLEU: 0.809, ROUGE: 1.000, METEOR: 0.976)
+
+Dialogue history: <PS>i wear a motorbike helmet to protect my head. my main transportation is my motorbike. i have light skin with big brown eyes. i waitress during the day to supplement my income. its red with blue stripe so it shiny when i race.<SEP>i hate math class.<SEP>An I love! Where are you from?<SEP>i am not sure what that means .<SEP>How old are you?<SEP>that is cool , i am not into sports , i am a pro soccer player<SEP>What club are you playing for?<SEP>that's cool , i am in college , and i am in college , and you ?<SEP>I am not in college
+U--An I love! Where are you from? 
+(Ref: ['Moscow.', ...])
+G--Moscow
+(length: 1, latency: 0.020, BLEU: 0.368, ROUGE: 1.000, METEOR: 0.263)
+U'--An I love! Where are you from? (cosine: 1.000)
+G'--Moscow
+Attack failed!
+(length: 1, latency: 0.022, BLEU: 0.368, ROUGE: 1.000, METEOR: 0.263)
+
+Dialogue history: <PS>i wear a motorbike helmet to protect my head. my main transportation is my motorbike. i have light skin with big brown eyes. i waitress during the day to supplement my income. its red with blue stripe so it shiny when i race.<SEP>i hate math class.<SEP>An I love! Where are you from?<SEP>i am not sure what that means .<SEP>How old are you?<SEP>that is cool , i am not into sports , i am a pro soccer player<SEP>What club are you playing for?<SEP>that's cool , i am in college , and i am in college , and you ?<SEP>I am not in college<SEP>An I love! Where are you from?<SEP>Moscow.
+U--i am from the us , you ? 
+(Ref: ['I am from Russia.', ...])
+G--I am from Russia.
+(length: 5, latency: 0.054, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.996)
+U'--i am from the us , you ? (cosine: 1.000)
+G'--I am from Russia.
+Attack failed!
+(length: 5, latency: 0.044, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.996)
+
+Dialogue history: <PS>my favorite movie is mean girls. i help out at the food bank occasionally. i am a party animal. i'm deathly afraid of heights. i own a cat and a dog.
+U--/start 
+(Ref: ['Hi!', ...])
+G--Hi!
+(length: 2, latency: 0.025, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.938)
+U'--/start (cosine: 1.000)
+G'--Hi!
+Attack failed!
+(length: 2, latency: 0.025, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.938)
+
+Dialogue history: <PS>my favorite movie is mean girls. i help out at the food bank occasionally. i am a party animal. i'm deathly afraid of heights. i own a cat and a dog.<SEP>/start<SEP>Hi!
+U--i am sorry , i am sorry to hear that . 
+(Ref: ['I said hi!', ...])
+G--It's nice to hear that. I'm deathly afraid of heights
+(length: 11, latency: 0.088, BLEU: 0.096, ROUGE: 0.133, METEOR: 0.102)
+U'--i am okay , i am sorry to hear that . (cosine: 0.841)
+G'--It's okay. Do you like parties?
+(length: 8, latency: 0.061, BLEU: 0.135, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>my favorite movie is mean girls. i help out at the food bank occasionally. i am a party animal. i'm deathly afraid of heights. i own a cat and a dog.<SEP>/start<SEP>Hi!<SEP>i am sorry , i am sorry to hear that .<SEP>I said hi!
+U--i am a teacher , and i am a teacher , and you ? 
+(Ref: ['I'm a student', ...])
+G--I am a student
+(length: 4, latency: 0.043, BLEU: 0.473, ROUGE: 0.750, METEOR: 0.639)
+U'--i am a student , and i am a student , and you ? (cosine: 0.766)
+G'--I am a student too.
+(length: 6, latency: 0.050, BLEU: 0.291, ROUGE: 0.667, METEOR: 0.608)
+
+Dialogue history: <PS>i did not graduate high school. my favourite food is shawarma. i am in the army. my grandfather served in world war a.
+U--/start 
+(Ref: ['Hello', ...])
+G--Hi
+(length: 1, latency: 0.021, BLEU: 0.841, ROUGE: 0.000, METEOR: 0.500)
+U'--/start (cosine: 1.000)
+G'--Hi
+Attack failed!
+(length: 1, latency: 0.021, BLEU: 0.841, ROUGE: 0.000, METEOR: 0.500)
+
+Dialogue history: <PS>i did not graduate high school. my favourite food is shawarma. i am in the army. my grandfather served in world war a.<SEP>/start<SEP>Hello
+U--/start 
+(Ref: ['Hi there', ...])
+G--Hello
+(length: 1, latency: 0.021, BLEU: 0.309, ROUGE: 0.000, METEOR: 0.263)
+U'--/start (cosine: 1.000)
+G'--Hello
+Attack failed!
+(length: 1, latency: 0.020, BLEU: 0.309, ROUGE: 0.000, METEOR: 0.263)
+
+Dialogue history: <PS>i did not graduate high school. my favourite food is shawarma. i am in the army. my grandfather served in world war a.<SEP>/start<SEP>Hello<SEP>/start<SEP>Hi there
+U--that is cool , i was raised in the military , so i was in the city . 
+(Ref: ['oh wow! i am in the army now. Have you ever been there?', ...])
+G--oh wow! i am in the army now. Have you ever been there?
+(length: 16, latency: 0.097, BLEU: 1.000, ROUGE: 1.000, METEOR: 1.000)
+U'--that is cool , i was once in the military , so i was in the army . (cosine: 0.838)
+G'--wow, that's cool. what is your favorite food? my favourite food is shawarma. what is your favorite food?
+(length: 23, latency: 0.146, BLEU: 0.063, ROUGE: 0.062, METEOR: 0.089)
+
+Dialogue history: <PS>i did not graduate high school. my favourite food is shawarma. i am in the army. my grandfather served in world war a.<SEP>/start<SEP>Hello<SEP>/start<SEP>Hi there<SEP>that is cool , i was raised in the military , so i was in the city .<SEP>oh wow! i am in the army now. Have you ever been there?
+U--i am a country singer , and i love country music , you ? 
+(Ref: ['i did not graduate high school so I made my own country music band! Do you like our music?', ...])
+G--i did not graduate high school so I made my own country music band. Do you like it?
+(length: 20, latency: 0.114, BLEU: 0.735, ROUGE: 0.919, METEOR: 0.852)
+U'--i am a good singer , and i love country music , you ? (cosine: 0.927)
+G'--i did not graduate high school so I made my own country music band. do you like it?
+(length: 20, latency: 0.147, BLEU: 0.700, ROUGE: 0.919, METEOR: 0.852)
+
+Dialogue history: <PS>i did not graduate high school. my favourite food is shawarma. i am in the army. my grandfather served in world war a.<SEP>/start<SEP>Hello<SEP>/start<SEP>Hi there<SEP>that is cool , i was raised in the military , so i was in the city .<SEP>oh wow! i am in the army now. Have you ever been there?<SEP>i am a country singer , and i love country music , you ?<SEP>i did not graduate high school so I made my own country music band! Do you like our music?
+U--that is cool , i am a country singer , and i love the band 
+(Ref: ['that's cool. my favourite food is shawarma. what is your favourite food?', ...])
+G--my favourite food is shawarma. what is your favourite food?
+(length: 12, latency: 0.113, BLEU: 0.779, ROUGE: 0.870, METEOR: 0.769)
+U'--that is cool , i am a rock singer , and i like the band (cosine: 0.856)
+G'--my favourite food is shawarma. what is your favourite food?
+Attack failed!
+(length: 12, latency: 0.116, BLEU: 0.779, ROUGE: 0.870, METEOR: 0.769)
+
+Dialogue history: <PS>i did not graduate high school. my favourite food is shawarma. i am in the army. my grandfather served in world war a.<SEP>/start<SEP>Hello<SEP>/start<SEP>Hi there<SEP>that is cool , i was raised in the military , so i was in the city .<SEP>oh wow! i am in the army now. Have you ever been there?<SEP>i am a country singer , and i love country music , you ?<SEP>i did not graduate high school so I made my own country music band! Do you like our music?<SEP>that is cool , i am a country singer , and i love the band<SEP>that's cool. my favourite food is shawarma. what is your favourite food?
+U--that is cool , i am a country singer , and i love the band 
+(Ref: ['Yeasterday I wrote a country song about how my grandfather served in world war a. Do you want to hear it?', ...])
+G--my grandfather served in world war a. Do you want to hear it?
+(length: 15, latency: 0.120, BLEU: 0.587, ROUGE: 0.765, METEOR: 0.676)
+U'--that is why , i am a country musician , and i love the band (cosine: 0.891)
+G'--my grandfather served in world war a. Do you want to hear it?
+Attack failed!
+(length: 15, latency: 0.088, BLEU: 0.587, ROUGE: 0.765, METEOR: 0.676)
+
+Dialogue history: <PS>i am fluent in english spanish and french. my favorite colors are red and silver. i'm interested in photography and like taking pictures. my boyfriend and i are moving into an apartment together next week. i'm an elementary school teacher.
+U--Hi! Howdy! 😎 🙉 
+(Ref: ['Hi! What a nice day! How are you?', ...])
+G--Hi! Howdy! 😎
+(length: 5, latency: 0.051, BLEU: 0.116, ROUGE: 0.200, METEOR: 0.246)
+U'--hi! hello! 😎 🙉 (cosine: 0.812)
+G'--hello! i’m interested in photography and like taking pictures.
+(length: 11, latency: 0.081, BLEU: 0.114, ROUGE: 0.000, METEOR: 0.089)
+
+Dialogue history: <PS>i am fluent in english spanish and french. my favorite colors are red and silver. i'm interested in photography and like taking pictures. my boyfriend and i are moving into an apartment together next week. i'm an elementary school teacher.<SEP>Hi! Howdy! 😎 🙉<SEP>Hi! What a nice day! How are you?
+U--i'm good thanks for asking what is going on ? 
+(Ref: ['Me and my boyfriend are moving into an apartment together next week! I can not wait for this!', ...])
+G--I am talking with my boyfriend.
+(length: 7, latency: 0.048, BLEU: 0.041, ROUGE: 0.167, METEOR: 0.137)
+U'--i'm fine just for asking what is going on ? (cosine: 0.826)
+G'--I am fine, thanks. And you?
+(length: 9, latency: 0.060, BLEU: 0.042, ROUGE: 0.083, METEOR: 0.053)
+
+Dialogue history: <PS>i am fluent in english spanish and french. my favorite colors are red and silver. i'm interested in photography and like taking pictures. my boyfriend and i are moving into an apartment together next week. i'm an elementary school teacher.<SEP>Hi! Howdy! 😎 🙉<SEP>Hi! What a nice day! How are you?<SEP>i'm good thanks for asking what is going on ?<SEP>Me and my boyfriend are moving into an apartment together next week! I can not wait for this!
+U--cool , my children are 30 , 29 an 19 . you have any ? 
+(Ref: ['No-no, we don`t think about children yet :)', ...])
+G--No, I don’t have any children yet.
+(length: 9, latency: 0.078, BLEU: 0.143, ROUGE: 0.588, METEOR: 0.313)
+U'--well , my values are 30 , 29 an 19 . you have any ? (cosine: 0.772)
+G'--No, I don’t have any. Do you have a boyfriend?
+(length: 13, latency: 0.096, BLEU: 0.096, ROUGE: 0.300, METEOR: 0.122)
+
+Dialogue history: <PS>i am fluent in english spanish and french. my favorite colors are red and silver. i'm interested in photography and like taking pictures. my boyfriend and i are moving into an apartment together next week. i'm an elementary school teacher.<SEP>Hi! Howdy! 😎 🙉<SEP>Hi! What a nice day! How are you?<SEP>i'm good thanks for asking what is going on ?<SEP>Me and my boyfriend are moving into an apartment together next week! I can not wait for this!<SEP>cool , my children are 30 , 29 an 19 . you have any ?<SEP>No-no, we don`t think about children yet :)
+U--congrats ! i'd have mine in the rain too because i love the mood it sets 
+(Ref: ['Oh, I like rain. Like silver color. My favorite colors are red and silver. And what about you?', ...])
+G--Oh, I like rain. My favorite colors are red and silver. What is your favorite color?
+(length: 20, latency: 0.112, BLEU: 0.575, ROUGE: 0.706, METEOR: 0.647)
+U'--ha ! i'd have mine in the rain too because i love the light it sets (cosine: 0.874)
+G'--Oh, I like rain. My favorite colors are red and silver. What is your favorite colors?
+(length: 20, latency: 0.113, BLEU: 0.566, ROUGE: 0.706, METEOR: 0.647)
+
+Dialogue history: <PS>i am fluent in english spanish and french. my favorite colors are red and silver. i'm interested in photography and like taking pictures. my boyfriend and i are moving into an apartment together next week. i'm an elementary school teacher.<SEP>Hi! Howdy! 😎 🙉<SEP>Hi! What a nice day! How are you?<SEP>i'm good thanks for asking what is going on ?<SEP>Me and my boyfriend are moving into an apartment together next week! I can not wait for this!<SEP>cool , my children are 30 , 29 an 19 . you have any ?<SEP>No-no, we don`t think about children yet :)<SEP>congrats ! i'd have mine in the rain too because i love the mood it sets<SEP>Oh, I like rain. Like silver color. My favorite colors are red and silver. And what about you?
+U--i do . i have a green saturn . my sister has the same one ! 😘 
+(Ref: ['Do you live with your sister?', ...])
+G--Do you live with your sister?
+(length: 7, latency: 0.048, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.999)
+U'--i do . i have a brother saturn . my sister has the same one ! 😘 (cosine: 0.883)
+G'--Do you live with your sister?
+Attack failed!
+(length: 7, latency: 0.055, BLEU: 1.000, ROUGE: 1.000, METEOR: 0.999)
+
+Dialogue history: <PS>i am fluent in english spanish and french. my favorite colors are red and silver. i'm interested in photography and like taking pictures. my boyfriend and i are moving into an apartment together next week. i'm an elementary school teacher.<SEP>Hi! Howdy! 😎 🙉<SEP>Hi! What a nice day! How are you?<SEP>i'm good thanks for asking what is going on ?<SEP>Me and my boyfriend are moving into an apartment together next week! I can not wait for this!<SEP>cool , my children are 30 , 29 an 19 . you have any ?<SEP>No-no, we don`t think about children yet :)<SEP>congrats ! i'd have mine in the rain too because i love the mood it sets<SEP>Oh, I like rain. Like silver color. My favorite colors are red and silver. And what about you?<SEP>i do . i have a green saturn . my sister has the same one ! 😘<SEP>Do you live with your sister?
+U--i do she just is away for business 
+(Ref: ['I'm an elementary school teacher. What is your business?', ...])
+G--I'm an elementary school teacher. What is your business?
+(length: 11, latency: 0.078, BLEU: 1.000, ROUGE: 1.000, METEOR: 1.000)
+U'--i do she just is away for business (cosine: 1.000)
+G'--I'm an elementary school teacher. What is your business?
+Attack failed!
+(length: 11, latency: 0.074, BLEU: 1.000, ROUGE: 1.000, METEOR: 1.000)
+
+Dialogue history: <PS>i am fluent in english spanish and french. my favorite colors are red and silver. i'm interested in photography and like taking pictures. my boyfriend and i are moving into an apartment together next week. i'm an elementary school teacher.<SEP>Hi! Howdy! 😎 🙉<SEP>Hi! What a nice day! How are you?<SEP>i'm good thanks for asking what is going on ?<SEP>Me and my boyfriend are moving into an apartment together next week! I can not wait for this!<SEP>cool , my children are 30 , 29 an 19 . you have any ?<SEP>No-no, we don`t think about children yet :)<SEP>congrats ! i'd have mine in the rain too because i love the mood it sets<SEP>Oh, I like rain. Like silver color. My favorite colors are red and silver. And what about you?<SEP>i do . i have a green saturn . my sister has the same one ! 😘<SEP>Do you live with your sister?<SEP>i do she just is away for business<SEP>I'm an elementary school teacher. What is your business?
+U--i am a manager at a sporting goods store i love to hunt do you have any hobbies ? 
+(Ref: ['Yes! I like to take photos!', ...])
+G--Yes, I like to take photos!
+(length: 8, latency: 0.054, BLEU: 0.751, ROUGE: 1.000, METEOR: 0.865)

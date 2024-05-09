@@ -1,0 +1,34 @@
+
+Dialogue history: <PS>i dance on the weekends. i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i hate the color orange.
+U--Hi, how do you do? :upside_down_face: 
+(Ref: ['hey, what's your favourite colour?', ...])
+G--I am fine, how about you?
+(length: 8, latency: 0.152, BLEU: 0.177, ROUGE: 0.000, METEOR: 0.125)
+U'--so, how do you do? :upside_down_face: (cosine: 0.969)
+G'--I like to dance
+(length: 4, latency: 0.041, BLEU: 0.143, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>i dance on the weekends. i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i hate the color orange.<SEP>Hi, how do you do? :upside_down_face:<SEP>hey, what's your favourite colour?
+U--off topic   what is your favourite colour   
+(Ref: ['you think this is off topic?', ...])
+G--i'm a fan of orange
+(length: 5, latency: 0.083, BLEU: 0.154, ROUGE: 0.000, METEOR: 0.000)
+U'--off topic   what is your favorite colour   (cosine: 0.977)
+G'--i'm a fan of orange
+Attack failed!
+(length: 5, latency: 0.086, BLEU: 0.154, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>i dance on the weekends. i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i hate the color orange.<SEP>Hi, how do you do? :upside_down_face:<SEP>hey, what's your favourite colour?<SEP>off topic   what is your favourite colour  <SEP>you think this is off topic?
+U--i could never handle that   
+(Ref: ['i compete in dog agility things', ...])
+G--i'm not a fan of the color orange
+(length: 8, latency: 0.110, BLEU: 0.135, ROUGE: 0.133, METEOR: 0.079)
+U'--i could never do that   (cosine: 0.807)
+G'--what is your favourite colour?
+(length: 6, latency: 0.058, BLEU: 0.186, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>i dance on the weekends. i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i hate the color orange.<SEP>Hi, how do you do? :upside_down_face:<SEP>hey, what's your favourite colour?<SEP>off topic   what is your favourite colour  <SEP>you think this is off topic?<SEP>i could never handle that  <SEP>i compete in dog agility things
+U--do you have a hobby   mine is competing in dog agility   makes the time pass       
+(Ref: ['yes i like to suck dicks', ...])
+G--i dance on the weekends
+(length: 5, latency: 0.056, BLEU: 0.224, ROUGE: 0.182, METEOR: 0.085)

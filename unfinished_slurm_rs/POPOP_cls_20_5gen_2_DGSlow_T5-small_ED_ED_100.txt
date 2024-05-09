@@ -1,0 +1,433 @@
+
+Dialogue history: <PS>I will accomplish all my monetary goals for this month.  I've dedicated more time to earn more mone.<CTX>confident.
+U--I have a lot of stuff coming up due this month.  I also have a lot of purchasing goals as well.  I am confident I will be able to meet all of them. 
+(Ref: ['Good_comma_ I hope you make the ends meet', ...])
+G--That's great! I hope you get the best of luck!
+(length: 12, latency: 0.213, BLEU: 0.204, ROUGE: 0.400, METEOR: 0.586)
+U'--I have a lot of stuff coming up due this month.  I also have a lot of purchasing goals as well.  I am hoping I will be able to meet all of them. (cosine: 0.974)
+G'--That's great! I hope you can meet all of them.
+(length: 12, latency: 0.123, BLEU: 0.204, ROUGE: 0.400, METEOR: 0.441)
+
+Dialogue history: <PS>I will accomplish all my monetary goals for this month.  I've dedicated more time to earn more mone.<CTX>confident.<SEP>I have a lot of stuff coming up due this month.  I also have a lot of purchasing goals as well.  I am confident I will be able to meet all of them.<SEP>Good_comma_ I hope you make the ends meet
+U--That's the plan_comma_ I've signed up for a bunch of double shifts.  Fingers crossed. 
+(Ref: ['I wish you the best of luck_comma_ you will be fine!', ...])
+G--I hope you make the ends meet.
+(length: 8, latency: 0.072, BLEU: 0.079, ROUGE: 0.316, METEOR: 0.129)
+U'--That's the plan_comma_ I've signed up for a couple of red cards.  Fingers crossed. (cosine: 0.726)
+G'--I hope you get the rewards you need.
+Attack failed!
+(length: 9, latency: 0.095, BLEU: 0.091, ROUGE: 0.400, METEOR: 0.171)
+
+Dialogue history: <PS>I am joyful that I am with my wife<CTX>joyful.
+U--I am joyful that I am with my wife 
+(Ref: ['How you been together long?', ...])
+G--That is great. What is your wife doing?
+(length: 10, latency: 0.090, BLEU: 0.126, ROUGE: 0.000, METEOR: 0.078)
+U'--I am happy that I am with my wife (cosine: 0.951)
+G'--That is great. I am glad you are with her.
+(length: 12, latency: 0.095, BLEU: 0.104, ROUGE: 0.133, METEOR: 0.076)
+
+Dialogue history: <PS>I am joyful that I am with my wife<CTX>joyful.<SEP>I am joyful that I am with my wife<SEP>How you been together long?
+U--We have been together for 10 years 
+(Ref: ['Awesome. I've got you beat by 1 year. You know I just read the average couple from the time to meet to the time the ends things is 6 years. If you make it past that it will probably last for every. ', ...])
+G--That's great. I'm glad you have a good relationship.
+(length: 11, latency: 0.122, BLEU: 0.006, ROUGE: 0.074, METEOR: 0.110)
+U'--We have been together for 10 years (cosine: 1.000)
+G'--That's great. I'm glad you have a good relationship.
+Attack failed!
+(length: 11, latency: 0.140, BLEU: 0.006, ROUGE: 0.074, METEOR: 0.110)
+
+Dialogue history: <PS>My pet has a tumor.<CTX>sad.
+U--The other day I noticed my pet has a growth on her lower belly. I fear it may be a tumor. 
+(Ref: ['What kind of pet is it? Hope your animal is okay!', ...])
+G--Oh no! I hope she gets a better deal.
+(length: 11, latency: 0.100, BLEU: 0.095, ROUGE: 0.100, METEOR: 0.078)
+U'--The other day I found my pet has a growth on her big head. I fear it may be a tumor. (cosine: 0.911)
+G'--Oh no! I hope she gets a good deal of relief.
+(length: 13, latency: 0.125, BLEU: 0.106, ROUGE: 0.091, METEOR: 0.115)
+
+Dialogue history: <PS>My pet has a tumor.<CTX>sad.<SEP>The other day I noticed my pet has a growth on her lower belly. I fear it may be a tumor.<SEP>What kind of pet is it? Hope your animal is okay!
+U--She's a rat_comma_ so her body is very frail. I'm sad that she likely will not make it. She's been with me through thick and thin. 
+(Ref: ['I heard rats make awesome pets_comma_ I'm so sorry! Is your rat in pain?', ...])
+G--I'm sorry to hear that. I'm sure she will be okay.
+(length: 13, latency: 0.151, BLEU: 0.067, ROUGE: 0.207, METEOR: 0.188)
+U'--She's a rat_comma_ so her body is very small. I'm told that she likely will not survive it. She's been with me through thick and gray. (cosine: 0.843)
+G'--I'm sorry to hear that. I'm sure she will be okay.
+Attack failed!
+(length: 13, latency: 0.135, BLEU: 0.067, ROUGE: 0.207, METEOR: 0.188)
+
+Dialogue history: <PS>I recently had fun with a friend I had not seen in a while. I want to see him again at some point in the future and I think I will.<CTX>hopeful.
+U--I recently met up with a friend I had not seen in a while. I want to see him again soon and I think I will! 
+(Ref: ['I love reuniting with old friends_comma_ helps me remember and appreciate the good times.', ...])
+G--That's great! What happened?
+(length: 6, latency: 0.069, BLEU: 0.025, ROUGE: 0.000, METEOR: 0.000)
+U'--I recently met up with a friend I had not met in a while. I hope to see him again soon and I think I will! (cosine: 0.968)
+G'--That's great! What happened?
+Attack failed!
+(length: 6, latency: 0.075, BLEU: 0.025, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>I recently had fun with a friend I had not seen in a while. I want to see him again at some point in the future and I think I will.<CTX>hopeful.<SEP>I recently met up with a friend I had not seen in a while. I want to see him again soon and I think I will!<SEP>I love reuniting with old friends_comma_ helps me remember and appreciate the good times.
+U--I agree. We went to high school and middle school together. 
+(Ref: ['I bet that was a long time ago!', ...])
+G--I hope you have a good time.
+(length: 8, latency: 0.082, BLEU: 0.168, ROUGE: 0.400, METEOR: 0.169)
+U'--I remember. We goes to elementary school and middle school together. (cosine: 0.803)
+G'--I love reuniting with old friends.
+(length: 7, latency: 0.090, BLEU: 0.140, ROUGE: 0.143, METEOR: 0.057)
+
+Dialogue history: <PS>it makes me really sad that people dont care about throwing trash on the streets.<CTX>sentimental.
+U--i hate that people dont care and they just throw their trash on the street 
+(Ref: ['do you pick up after them or tell them anything?', ...])
+G--I hate that. I'm sorry to hear that.
+(length: 10, latency: 0.100, BLEU: 0.096, ROUGE: 0.000, METEOR: 0.000)
+U'--i get that you dont care and they just throw their trash on the street (cosine: 0.877)
+G'--I'm sorry to hear that. I'm sure they will do well.
+(length: 13, latency: 0.126, BLEU: 0.096, ROUGE: 0.087, METEOR: 0.044)
+
+Dialogue history: <PS>it makes me really sad that people dont care about throwing trash on the streets.<CTX>sentimental.<SEP>i hate that people dont care and they just throw their trash on the street<SEP>do you pick up after them or tell them anything?
+U--if im walking i pick up as much as i can 
+(Ref: ['thats good of you', ...])
+G--i hope you get it done.
+(length: 7, latency: 0.068, BLEU: 0.186, ROUGE: 0.200, METEOR: 0.116)
+U'--if im right i pick up as many as i can (cosine: 0.804)
+G'--i hope they get it back.
+(length: 7, latency: 0.087, BLEU: 0.156, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>I think it's great how well my husband is doing in his new manager job. He's become the top assistant in his market in just 2 years.<CTX>impressed.
+U--It's great to see my husband doing so well. 
+(Ref: ['I am glad to hear that!  What is happening with him?', ...])
+G--That's great. I hope he is doing well.
+(length: 10, latency: 0.114, BLEU: 0.103, ROUGE: 0.200, METEOR: 0.117)
+U'--It's great to find my husband working so well. (cosine: 0.899)
+G'--That's great. I hope he is able to work well.
+(length: 12, latency: 0.144, BLEU: 0.114, ROUGE: 0.182, METEOR: 0.154)
+
+Dialogue history: <PS>I think it's great how well my husband is doing in his new manager job. He's become the top assistant in his market in just 2 years.<CTX>impressed.<SEP>It's great to see my husband doing so well.<SEP>I am glad to hear that!  What is happening with him?
+U--He's become the top manager in his division in just two years. 
+(Ref: ['That is awesome!  I hope he got a good raise', ...])
+G--That is great! I hope he is doing well!
+(length: 11, latency: 0.110, BLEU: 0.365, ROUGE: 0.526, METEOR: 0.520)
+U'--He's become the top manager in his country in just two years. (cosine: 0.869)
+G'--That is great! I hope he is able to do well.
+(length: 13, latency: 0.115, BLEU: 0.306, ROUGE: 0.476, METEOR: 0.567)
+
+Dialogue history: <PS>My husband took me  to the mall to get a new wedding band since mine was breaking. It was a lovely thing for him to do_comma_ I had no idea he'd been saving up for it.<CTX>surprised.
+U--My husband took me to get a new wedding band recently 
+(Ref: ['Well_comma_ that's very nice. I'm sure you were looking forward to that shopping trip.', ...])
+G--That's great! What band did you get?
+(length: 9, latency: 0.107, BLEU: 0.046, ROUGE: 0.240, METEOR: 0.087)
+U'--My husband took me to see a diamond wedding band recently (cosine: 0.825)
+G'--That's great! I'm glad you got to see them!
+Attack failed!
+(length: 11, latency: 0.115, BLEU: 0.065, ROUGE: 0.429, METEOR: 0.274)
+
+Dialogue history: <PS>My husband took me  to the mall to get a new wedding band since mine was breaking. It was a lovely thing for him to do_comma_ I had no idea he'd been saving up for it.<CTX>surprised.<SEP>My husband took me to get a new wedding band recently<SEP>Well_comma_ that's very nice. I'm sure you were looking forward to that shopping trip.
+U--I didn't know ahead of time! Mine had broken a bit and he saved up to get me a new one. 
+(Ref: ['That's was so thoughtful and sweet! Seems like you are a lucky wife!', ...])
+G--That's great. I'm sure he'll be able to do that.
+(length: 12, latency: 0.160, BLEU: 0.081, ROUGE: 0.148, METEOR: 0.063)
+U'--I didn't know ahead of time! Mine had cost a fortune and he saved up to get me a different one. (cosine: 0.835)
+G'--That's great. I'm sure he'll be able to get you a new band.
+Attack failed!
+(length: 15, latency: 0.172, BLEU: 0.098, ROUGE: 0.267, METEOR: 0.195)
+
+Dialogue history: <PS>One day I was a bit short on cash so I didn't give a homeless man any money. I felt really bad_comma_ as I always try to give something to those that are in need.<CTX>guilty.
+U--There was a day that I was a bit short on cash on hand and I didn't give money to a homeless man. I usually always do_comma_ as I feel it's my part to help those in need_comma_ as I am blessed. I felt very bad that I didn't that day. 
+(Ref: ['I don't think you should feel too bad about missing one day!  It sounds like you're generous regularly.  I get it though.', ...])
+G--That's terrible. I'm sorry to hear that.
+(length: 9, latency: 0.102, BLEU: 0.026, ROUGE: 0.061, METEOR: 0.101)
+U'--There was a day that I was a bit short on cash on purpose and I didn't give money to a homeless man. I usually always do_comma_ as I believe it's my part to help those in need_comma_ as I am blessed. I feel very bad that I didn't that day. (cosine: 0.985)
+G'--That's terrible. I'm sorry to hear that.
+Attack failed!
+(length: 9, latency: 0.103, BLEU: 0.026, ROUGE: 0.061, METEOR: 0.101)
+
+Dialogue history: <PS>One day I was a bit short on cash so I didn't give a homeless man any money. I felt really bad_comma_ as I always try to give something to those that are in need.<CTX>guilty.<SEP>There was a day that I was a bit short on cash on hand and I didn't give money to a homeless man. I usually always do_comma_ as I feel it's my part to help those in need_comma_ as I am blessed. I felt very bad that I didn't that day.<SEP>I don't think you should feel too bad about missing one day!  It sounds like you're generous regularly.  I get it though.
+U--Well_comma_ homeless people aren't common in my area_comma_ so that's why I felt a bit bad about it.  
+(Ref: ['It's hard to see people and not be able to help.  You seem really giving!', ...])
+G--I'm sure you'll get it. I'm sure you'll get it.
+(length: 12, latency: 0.154, BLEU: 0.068, ROUGE: 0.133, METEOR: 0.084)
+U'--Well_comma_ homeless people aren't even in my area_comma_ so that's why I felt a big bad about it.  (cosine: 0.925)
+G'--I'm sorry to hear that. I'm sure you'll get it.
+Attack failed!
+(length: 12, latency: 0.169, BLEU: 0.076, ROUGE: 0.138, METEOR: 0.141)
+
+Dialogue history: <PS>An ex of mine was in town_comma_ and we met up for a couple of drinks. She made a pass at me_comma_ but I told her she should get some rest. My girlfriend was understanding about it.<CTX>faithful.
+U--Hanging out with old flames can be tricky when you are in a committed exclusive relationship. 
+(Ref: ['Oh yeah that can be a mine field to walk across. Didn't have any issues?', ...])
+G--That's a good thing.
+(length: 5, latency: 0.093, BLEU: 0.027, ROUGE: 0.190, METEOR: 0.089)
+U'--Hanging out with my friends can be dangerous when you are in a committed exclusive relationship. (cosine: 0.629)
+G'--That's good. I'm sure you'll find a good friend.
+Attack failed!
+(length: 11, latency: 0.171, BLEU: 0.073, ROUGE: 0.143, METEOR: 0.085)
+
+Dialogue history: <PS>An ex of mine was in town_comma_ and we met up for a couple of drinks. She made a pass at me_comma_ but I told her she should get some rest. My girlfriend was understanding about it.<CTX>faithful.<SEP>Hanging out with old flames can be tricky when you are in a committed exclusive relationship.<SEP>Oh yeah that can be a mine field to walk across. Didn't have any issues?
+U--Actually_comma_ an ex was in town recently and we went for a drink. She made a pass at me_comma_ but I told her to get some rest and went home to my girlfriend. 
+(Ref: ['That's very faithful of you_comma_ and the right thing to do I'd say. ', ...])
+G--That's good. I'm sure she'll be able to get some rest.
+(length: 13, latency: 0.191, BLEU: 0.084, ROUGE: 0.200, METEOR: 0.266)
+U'--Actually_comma_ an ex was in town recently and we went for a drink. She made a pass at me_comma_ but I convinced her to get some rest and went home to my girlfriend. (cosine: 0.979)
+G'--That's good. I'm sure she'll be able to get some rest.
+Attack failed!
+(length: 13, latency: 0.182, BLEU: 0.084, ROUGE: 0.200, METEOR: 0.266)
+
+Dialogue history: <PS>I had just got done making an entire pizza and eating it whole. it was so filling and left my mouth watering.I was fat and content.<CTX>content.
+U--I just got done eating an entire pizza by myself. 
+(Ref: ['I do that all the time_comma_ no big deal.', ...])
+G--That's awesome! I'm glad you got it done!
+(length: 10, latency: 0.134, BLEU: 0.079, ROUGE: 0.100, METEOR: 0.147)
+U'--I just got done cooking an entire dinner by myself. (cosine: 0.764)
+G'--That's awesome! I'm glad you got done!
+(length: 9, latency: 0.109, BLEU: 0.076, ROUGE: 0.105, METEOR: 0.149)
+
+Dialogue history: <PS>I had just got done making an entire pizza and eating it whole. it was so filling and left my mouth watering.I was fat and content.<CTX>content.<SEP>I just got done eating an entire pizza by myself.<SEP>I do that all the time_comma_ no big deal.
+U--I feel so full and fat and happy. I can't wait to do it again. 
+(Ref: ['What kind of pizza did you eat?', ...])
+G--I'm sure you'll do well.
+(length: 6, latency: 0.091, BLEU: 0.133, ROUGE: 0.143, METEOR: 0.062)
+U'--I felt so sexy and cute and happy. I can't wait to do it again. (cosine: 0.861)
+G'--I'm sure you'll do it again.
+(length: 7, latency: 0.132, BLEU: 0.135, ROUGE: 0.133, METEOR: 0.062)
+
+Dialogue history: <PS>I feel very self assured after challenging my comfort zone<CTX>confident.
+U--When I do things that are challenging I feel more self-reliant. I recently tried taking an ice bath 
+(Ref: ['Oh man! thats impressive_comma_ those baths are rough.', ...])
+G--I'm sure you'll do well.
+(length: 6, latency: 0.100, BLEU: 0.069, ROUGE: 0.000, METEOR: 0.051)
+U'--When I do things that are challenging I feel more self-reliant. I recently tried out an electric bath (cosine: 0.868)
+G'--I'm sure you'll do well.
+Attack failed!
+(length: 6, latency: 0.097, BLEU: 0.069, ROUGE: 0.000, METEOR: 0.051)
+
+Dialogue history: <PS>I feel very self assured after challenging my comfort zone<CTX>confident.<SEP>When I do things that are challenging I feel more self-reliant. I recently tried taking an ice bath<SEP>Oh man! thats impressive_comma_ those baths are rough.
+U--Yeah_comma_ my bath wasn't deep enough_comma_ so I didn't get covered all the way! 
+(Ref: ['That's good. But still! You must be pretty tough!', ...])
+G--I'm sure you'll get a good bath.
+(length: 8, latency: 0.126, BLEU: 0.108, ROUGE: 0.105, METEOR: 0.118)
+U'--Yeah_comma_ my cut wasn't deep enough_comma_ so I didn't get covered all the time! (cosine: 0.805)
+G'--I'm sure you'll get a good feeling.
+Attack failed!
+(length: 8, latency: 0.110, BLEU: 0.108, ROUGE: 0.105, METEOR: 0.118)
+
+Dialogue history: <PS>The other night I was driving home in the rain and slid into the guard rail. It is going to cost so much to get my car fixed! <CTX>disappointed.
+U--The other night I was driving home in the rain and slid into the guard rail. It is going to cost so much to get my car fixed! 
+(Ref: ['Oh man_comma_ now that sucks! You gotta be careful on those wet roads. At least you're okay.', ...])
+G--That is terrible. Did you get it fixed?
+(length: 10, latency: 0.089, BLEU: 0.034, ROUGE: 0.148, METEOR: 0.096)
+U'--The other morning I was driving home in the rain and slid into the guard rail. It is going to take so much to get my car repaired! (cosine: 0.921)
+G'--That is terrible. Did you get it fixed?
+Attack failed!
+(length: 10, latency: 0.103, BLEU: 0.034, ROUGE: 0.148, METEOR: 0.096)
+
+Dialogue history: <PS>The other night I was driving home in the rain and slid into the guard rail. It is going to cost so much to get my car fixed! <CTX>disappointed.<SEP>The other night I was driving home in the rain and slid into the guard rail. It is going to cost so much to get my car fixed!<SEP>Oh man_comma_ now that sucks! You gotta be careful on those wet roads. At least you're okay.
+U--I know_comma_ I will have to be more careful next time. I shouldn't eat ice-cream while driving_comma_  
+(Ref: ['Is your car still drivable?', ...])
+G--I'm sure you'll be fine. I'm sure you'll get it fixed.
+(length: 13, latency: 0.202, BLEU: 0.080, ROUGE: 0.000, METEOR: 0.000)
+U'--I know_comma_ I will have to be more careful next night. I shouldn't have ice-cream while driving_comma_  (cosine: 0.916)
+G'--I'm sure you'll be fine. I'm sure you'll get it fixed.
+Attack failed!
+(length: 13, latency: 0.155, BLEU: 0.080, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>A squad car cut in to my lane head on the other day and I had nowhere to go_comma_ I was on a small crossbridge and he would not slow down at all. I could see that he was looking at the seat next to him and not straight ahead so I threw my car in reverse and hauled it.<CTX>afraid.
+U--Polie officers should still be required to drive safely even when responding to a call. 
+(Ref: ['sometimes they cant avoid it ', ...])
+G--I'm sorry to hear that. I'm sure they'll be able to get back to you.
+(length: 17, latency: 0.180, BLEU: 0.061, ROUGE: 0.087, METEOR: 0.077)
+U'--the officers should still be required to drive safely even when responding to a situation. (cosine: 0.845)
+G'--I'm sorry to hear that. I'm sure they'll be able to help you.
+Attack failed!
+(length: 15, latency: 0.245, BLEU: 0.069, ROUGE: 0.095, METEOR: 0.079)
+
+Dialogue history: <PS>A squad car cut in to my lane head on the other day and I had nowhere to go_comma_ I was on a small crossbridge and he would not slow down at all. I could see that he was looking at the seat next to him and not straight ahead so I threw my car in reverse and hauled it.<CTX>afraid.<SEP>Polie officers should still be required to drive safely even when responding to a call.<SEP>sometimes they cant avoid it 
+U--I threw the car in reverse and hauled my butt backwards! 
+(Ref: ['ok', ...])
+G--I'm sorry to hear that. I'm sure you'll be able to get it back.
+(length: 16, latency: 0.265, BLEU: 0.065, ROUGE: 0.000, METEOR: 0.000)
+U'--I threw the car in reverse and threw my butt backwards! (cosine: 0.976)
+G'--oh no_comma_ thats a good thing to do
+Attack failed!
+(length: 11, latency: 0.162, BLEU: 0.096, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>When i was a child a stole my mother's card details to pay for a subscription.<CTX>ashamed.
+U--I actually did this_comma_ i'm terrible. 
+(Ref: ['Did what?', ...])
+G--Oh no! I'm sorry to hear that.
+(length: 9, latency: 0.112, BLEU: 0.119, ROUGE: 0.000, METEOR: 0.000)
+U'--I actually did this_comma_ i'm sorry. (cosine: 0.840)
+G'--Oh no! I'm sorry to hear that.
+Attack failed!
+(length: 9, latency: 0.117, BLEU: 0.119, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>When i was a child a stole my mother's card details to pay for a subscription.<CTX>ashamed.<SEP>I actually did this_comma_ i'm terrible.<SEP>Did what?
+U--I stole my mother's card details to pay for a subscription. 
+(Ref: ['I have too... to pay for food though. She told me that she would have paid if I asked but I am too proud.', ...])
+G--Oh no! Did you get her a refund?
+(length: 10, latency: 0.111, BLEU: 0.016, ROUGE: 0.000, METEOR: 0.020)
+U'--I needed my mother's financial details to pay for a subscription. (cosine: 0.788)
+G'--Oh no! I'm sorry to hear that. I'm sure you'll get it.
+Attack failed!
+(length: 15, latency: 0.207, BLEU: 0.041, ROUGE: 0.205, METEOR: 0.134)
+
+Dialogue history: <PS>I felt so nervous going into my latest job interview.<CTX>apprehensive.
+U--I felt sooooo nervous going to my last job interview! Nerves must occur in proportion to how badly you *want* something! 
+(Ref: ['I know what you mean. Did you get the job?', ...])
+G--I'm sorry to hear that. I'm sure you'll get it.
+(length: 12, latency: 0.173, BLEU: 0.115, ROUGE: 0.261, METEOR: 0.163)
+U'--I felt sooooo nervous coming to my first job interview! Nerves must occur in response to how badly you *want* something! (cosine: 0.962)
+G'--I'm sorry to hear that. I'm sure you'll get it.
+Attack failed!
+(length: 12, latency: 0.138, BLEU: 0.115, ROUGE: 0.261, METEOR: 0.163)
+
+Dialogue history: <PS>I felt so nervous going into my latest job interview.<CTX>apprehensive.<SEP>I felt sooooo nervous going to my last job interview! Nerves must occur in proportion to how badly you *want* something!<SEP>I know what you mean. Did you get the job?
+U--I did! The company does something that I actually like -- a panel interview vs a series of one-on-ones. Have you ever had an interview like that? 
+(Ref: ['I have not. What is it?', ...])
+G--I'm sure you'll get it. I'm sure you'll get it.
+(length: 12, latency: 0.150, BLEU: 0.115, ROUGE: 0.200, METEOR: 0.227)
+U'--I did! The show does something that I actually like -- a video interview vs a series of one-on-ones. Have you ever had an interview like that? (cosine: 0.777)
+G'--I'm sure you'll get it. I'm sure you'll get it.
+Attack failed!
+(length: 12, latency: 0.158, BLEU: 0.115, ROUGE: 0.200, METEOR: 0.227)
+
+Dialogue history: <PS>One morning my mother came to pick my daughter up for school and told me she saw my daughter's cat dead outside.<CTX>sad.
+U--My mother picked my daughter up for school to take in the morning_comma_ and found her cat dead. It was so hard for my daughter and made us all very upset. 
+(Ref: ['I bet it was.  Death is never an easy thing to deal with_comma_ especially for a child.', ...])
+G--That's so sad. I'm sorry to hear that.
+(length: 10, latency: 0.120, BLEU: 0.045, ROUGE: 0.143, METEOR: 0.109)
+U'--My mother picked my child up for school to take in the morning_comma_ and found her cat dead. It was so hard for my daughter and made us all very upset. (cosine: 0.962)
+G'--That's so sad. I'm sorry to hear that.
+Attack failed!
+(length: 10, latency: 0.107, BLEU: 0.045, ROUGE: 0.143, METEOR: 0.109)
+
+Dialogue history: <PS>One morning my mother came to pick my daughter up for school and told me she saw my daughter's cat dead outside.<CTX>sad.<SEP>My mother picked my daughter up for school to take in the morning_comma_ and found her cat dead. It was so hard for my daughter and made us all very upset.<SEP>I bet it was.  Death is never an easy thing to deal with_comma_ especially for a child.
+U--Yes_comma_ she was only about 9_comma_ and loved her cat so much. It broke my heart to see her so upset! 
+(Ref: ['I hope she will be alright!  I remember how devastated I was when my last dog passed away and I was an adult.  A kids emotions seem to amplify everything! ', ...])
+G--I bet it was. I am so sorry to hear that.
+(length: 13, latency: 0.111, BLEU: 0.027, ROUGE: 0.195, METEOR: 0.097)
+U'--Yes_comma_ she was only about 9_comma_ and loves her daddy so much. It broke my head to see her so upset! (cosine: 0.795)
+G'--I bet it was. I am so sorry to hear that.
+Attack failed!
+(length: 13, latency: 0.135, BLEU: 0.027, ROUGE: 0.195, METEOR: 0.097)
+
+Dialogue history: <PS>I very much like this new female friend of mine. I just want to give her all of my love.<CTX>caring.
+U--I recently met a new person that I am very fond of. I want to give her my love and care. 
+(Ref: ['That is very special and I am so happy for you.', ...])
+G--That's great. What kind of person is she?
+(length: 10, latency: 0.120, BLEU: 0.114, ROUGE: 0.200, METEOR: 0.126)
+U'--I recently met a special person that I am very fond of. I want to offer her my help and care. (cosine: 0.880)
+G'--That's great. I'm sure she'll be a great friend.
+(length: 11, latency: 0.182, BLEU: 0.104, ROUGE: 0.174, METEOR: 0.123)
+
+Dialogue history: <PS>I very much like this new female friend of mine. I just want to give her all of my love.<CTX>caring.<SEP>I recently met a new person that I am very fond of. I want to give her my love and care.<SEP>That is very special and I am so happy for you.
+U--I am very happy_comma_ too. Do you have someone special in your life? 
+(Ref: ['Yes_comma_ married for 15 years and it is still great.', ...])
+G--That is a great feeling. I hope you find someone special in your life.
+(length: 16, latency: 0.178, BLEU: 0.091, ROUGE: 0.160, METEOR: 0.130)
+U'--I am very happy_comma_ too. Do you have any else in your family? (cosine: 0.799)
+G'--That is a great feeling. I hope you have a good relationship with her.
+Attack failed!
+(length: 16, latency: 0.137, BLEU: 0.091, ROUGE: 0.160, METEOR: 0.130)
+
+Dialogue history: <PS>Lifting some weight I didn't think I could handle.<CTX>apprehensive.
+U--I had some hesitations when I was at the gym today_comma_ thought I wouldn't be able to handle the weights 
+(Ref: ['How'd it turn out? Congrats on deciding to lead a healthier life_comma_ by the way.', ...])
+G--I'm sorry to hear that. I'm sure you'll be able to handle the weights.
+(length: 16, latency: 0.193, BLEU: 0.071, ROUGE: 0.118, METEOR: 0.083)
+U'--I had some trouble when I was at the hospital today_comma_ because I wouldn't be able to do the weights (cosine: 0.706)
+G'--I'm sorry to hear that. I'm sure you'll get a lot of weights.
+(length: 15, latency: 0.178, BLEU: 0.070, ROUGE: 0.121, METEOR: 0.083)
+
+Dialogue history: <PS>Lifting some weight I didn't think I could handle.<CTX>apprehensive.<SEP>I had some hesitations when I was at the gym today_comma_ thought I wouldn't be able to handle the weights<SEP>How'd it turn out? Congrats on deciding to lead a healthier life_comma_ by the way.
+U--I decided to focus on the music that was blasting_comma_ just tried switching up what I play in the gym_comma_ it sounds like vikings are bringing me into battle 
+(Ref: ['I'm the exact same way in the gym. Music is a huge motivator for me. One time my phone died while in the gym and the rest of the workout was so low energy.', ...])
+G--I'm sure they'll be able to help you.
+(length: 9, latency: 0.111, BLEU: 0.007, ROUGE: 0.089, METEOR: 0.072)
+U'--I decided to focus on the music that was blasting_comma_ just like switching up what I heard in the gym_comma_ it sound like they are sending me into battle (cosine: 0.895)
+G'--I'm sure you'll be able to do that.
+Attack failed!
+(length: 9, latency: 0.122, BLEU: 0.007, ROUGE: 0.089, METEOR: 0.072)
+
+Dialogue history: <PS>I ran into my neighbor's mailbox but didn't stop to leave a note. When I saw him replacing it_comma_ I felt so bad that I had to confess. He was angry that I did it_comma_ but glad that I came forward.<CTX>guilty.
+U--I ran into my neighbor's mailbox with my car but didn't stop and leave a note. 
+(Ref: ['Thats horrible! You should tell them as that is their property. What if someone did that to your stuff?', ...])
+G--Oh no! Did you get a note?
+(length: 9, latency: 0.094, BLEU: 0.037, ROUGE: 0.077, METEOR: 0.097)
+U'--I ran into my neighbor's garage with my car but didn't go and write a message. (cosine: 0.856)
+G'--Oh no! Did you get a call?
+Attack failed!
+(length: 9, latency: 0.096, BLEU: 0.037, ROUGE: 0.077, METEOR: 0.097)
+
+Dialogue history: <PS>I ran into my neighbor's mailbox but didn't stop to leave a note. When I saw him replacing it_comma_ I felt so bad that I had to confess. He was angry that I did it_comma_ but glad that I came forward.<CTX>guilty.<SEP>I ran into my neighbor's mailbox with my car but didn't stop and leave a note.<SEP>Thats horrible! You should tell them as that is their property. What if someone did that to your stuff?
+U--I agree_comma_ I felt so bad about it. When I saw him replacing it_comma_ I went out and confessed. 
+(Ref: ['GOOD on you!!', ...])
+G--Thats terrible. I hope you get it back.
+(length: 10, latency: 0.109, BLEU: 0.126, ROUGE: 0.182, METEOR: 0.091)
+U'--I agree_comma_ I felt so bad about it. When I found him replacing it_comma_ I went out and cried. (cosine: 0.954)
+G'--Thats terrible. I hope you get a better deal.
+(length: 11, latency: 0.109, BLEU: 0.114, ROUGE: 0.167, METEOR: 0.179)
+
+Dialogue history: <PS>I was sad the other day because I found out a friend is moving. It's not that far and I didnt see her a lot anyway but still.<CTX>sad.
+U--5 
+(Ref: ['8', ...])
+G--That's sad. I'm sorry to hear that.
+(length: 9, latency: 0.108, BLEU: 0.119, ROUGE: 0.000, METEOR: 0.000)
+U'--5 (cosine: 1.000)
+G'--That's sad. I'm sorry to hear that.
+Attack failed!
+(length: 9, latency: 0.126, BLEU: 0.119, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>I was sad the other day because I found out a friend is moving. It's not that far and I didnt see her a lot anyway but still.<CTX>sad.<SEP>5<SEP>8
+U--Opps. Ok_comma_ i mean that I was sad the other day because a friend is moving. 
+(Ref: ['Is it far away_', ...])
+G--I'm sorry to hear that. I'm sure you'll be able to see her again.
+(length: 16, latency: 0.212, BLEU: 0.065, ROUGE: 0.000, METEOR: 0.000)
+U'--2. Ok_comma_ i mean that I was sad the other day because a friend is moving. (cosine: 0.972)
+G'--I'm sorry to hear that. I'm sure you'll be able to see her again.
+Attack failed!
+(length: 16, latency: 0.174, BLEU: 0.065, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>I was sad the other day because I found out a friend is moving. It's not that far and I didnt see her a lot anyway but still.<CTX>sad.<SEP>5<SEP>8<SEP>Opps. Ok_comma_ i mean that I was sad the other day because a friend is moving.<SEP>Is it far away_
+U--not to far_comma_ but it's still sad to see her go. 
+(Ref: ['Well you can still hang out since its not far', ...])
+G--I'm sorry to hear that. I'm sure she'll be there soon.
+(length: 13, latency: 0.149, BLEU: 0.080, ROUGE: 0.000, METEOR: 0.000)
+U'--not to far_comma_ but it's still nice to see her go. (cosine: 0.803)
+G'--I'm sorry to hear that. I'm sure she'll be there soon.
+Attack failed!
+(length: 13, latency: 0.178, BLEU: 0.080, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>I just had a delicious breakfast and am now casually relaxing in my room.<CTX>content.
+U--I just had a delicious breakfast and now I'm casually relaxing in my room. Life is good! 
+(Ref: ['What was for breakfast?', ...])
+G--That's great! I'm glad you enjoyed it!
+(length: 9, latency: 0.139, BLEU: 0.119, ROUGE: 0.000, METEOR: 0.000)
+U'--I just had a delicious breakfast and now I'm casually working in my kitchen. Life is good! (cosine: 0.886)
+G'--That's great! I'm glad you enjoyed it!
+Attack failed!
+(length: 9, latency: 0.104, BLEU: 0.119, ROUGE: 0.000, METEOR: 0.000)
+
+Dialogue history: <PS>I just had a delicious breakfast and am now casually relaxing in my room.<CTX>content.<SEP>I just had a delicious breakfast and now I'm casually relaxing in my room. Life is good!<SEP>What was for breakfast?
+U--Pancakes and sausage! How can you go wrong? 
+(Ref: ['You can't! Sounds like a wonderful morning!', ...])
+G--I'm sure you'll enjoy it!
+(length: 6, latency: 0.091, BLEU: 0.134, ROUGE: 0.133, METEOR: 0.102)
+U'--egg and toast! How can you go wrong? (cosine: 0.694)
+G'--I'm sure you'll enjoy it!
+Attack failed!
+(length: 6, latency: 0.095, BLEU: 0.134, ROUGE: 0.133, METEOR: 0.102)
+
+Dialogue history: <PS>My four year old daughter showed my a picture she drew of me.  I was surprised by how detailed the drawing was.<CTX>surprised.
+U--My four year old daughter came to me beaming with pride and showing me a drawing she did of me. 
+(Ref: ['Isn't that the best!  My 3 year old the same thing!  I couldn't be happier or more proud!', ...])
+G--That's great! What did you do?
+(length: 8, latency: 0.086, BLEU: 0.032, ROUGE: 0.074, METEOR: 0.046)
+U'--My four year old daughter ran to me smiling with pride and showing me a drawing she did of me. (cosine: 0.881)
+G'--That's great! What did you do?
+Attack failed!
+(length: 8, latency: 0.083, BLEU: 0.032, ROUGE: 0.074, METEOR: 0.046)
+
+Dialogue history: <PS>My four year old daughter showed my a picture she drew of me.  I was surprised by how detailed the drawing was.<CTX>surprised.<SEP>My four year old daughter came to me beaming with pride and showing me a drawing she did of me.<SEP>Isn't that the best!  My 3 year old the same thing!  I couldn't be happier or more proud!
+U--I was really surpised.  I expected a stick figure_comma_ but she drew a lot of features including my beard and mustache. 
+(Ref: ['She may be a natural artist!', ...])
+G--I'm sure she'll be a great mom!
+(length: 8, latency: 0.104, BLEU: 0.227, ROUGE: 0.400, METEOR: 0.432)

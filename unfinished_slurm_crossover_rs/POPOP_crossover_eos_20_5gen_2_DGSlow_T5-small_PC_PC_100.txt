@@ -1,0 +1,74 @@
+
+Dialogue history: <PS>i love to go to disney world every year . mickey mouse is my favorite character . i play with my friends on the playground . i love to sing songs from the movie frozen . i am in the third grade .
+U--hello ! how are you today ? 
+(Ref: ['i love singing frozen but my favorite band is up . saw them in concert !', ...])
+G--i am doing well. i am a teacher.
+(length: 10, latency: 0.169, BLEU: 0.361, ROUGE: 0.400, METEOR: 0.359)
+U'--hi ! how are you today ? (cosine: 0.903)
+G'--i am doing well. i am a teacher.
+Attack failed!
+(length: 10, latency: 0.117, BLEU: 0.361, ROUGE: 0.400, METEOR: 0.359)
+
+Dialogue history: <PS>i love to go to disney world every year . mickey mouse is my favorite character . i play with my friends on the playground . i love to sing songs from the movie frozen . i am in the third grade .<SEP>hello ! how are you today ?<SEP>i love singing frozen but my favorite band is up . saw them in concert !
+U--oh wonderful ! i work as an elementary school teacher ! my parents were teachers too . 
+(Ref: ['i have never been ! i usually just stay at home and play board games while on vacation .', ...])
+G--i'm a teacher. i'm a teacher.
+(length: 8, latency: 0.140, BLEU: 0.191, ROUGE: 0.300, METEOR: 0.147)
+U'--oh god ! i work as an elementary biology teacher ! my parents were murdered too . (cosine: 0.722)
+G'--i'm a teacher. i'm a teacher. i'm a teacher.
+(length: 12, latency: 0.245, BLEU: 0.124, ROUGE: 0.250, METEOR: 0.142)
+
+Dialogue history: <PS>i love to go to disney world every year . mickey mouse is my favorite character . i play with my friends on the playground . i love to sing songs from the movie frozen . i am in the third grade .<SEP>hello ! how are you today ?<SEP>i love singing frozen but my favorite band is up . saw them in concert !<SEP>oh wonderful ! i work as an elementary school teacher ! my parents were teachers too .<SEP>i have never been ! i usually just stay at home and play board games while on vacation .
+U--i like goofy the most . thank you i will think about it . 
+(Ref: ['that is nice ! do you have a favorite activity ?', ...])
+G--i'm a teacher. i'm a teacher.
+(length: 8, latency: 0.141, BLEU: 0.202, ROUGE: 0.400, METEOR: 0.277)
+U'--i love goofy the most . like you i will think about it . (cosine: 0.930)
+G'--i'm a teacher. i'm a teacher.
+Attack failed!
+(length: 8, latency: 0.188, BLEU: 0.202, ROUGE: 0.400, METEOR: 0.277)
+
+Dialogue history: <PS>i love to go to disney world every year . mickey mouse is my favorite character . i play with my friends on the playground . i love to sing songs from the movie frozen . i am in the third grade .<SEP>hello ! how are you today ?<SEP>i love singing frozen but my favorite band is up . saw them in concert !<SEP>oh wonderful ! i work as an elementary school teacher ! my parents were teachers too .<SEP>i have never been ! i usually just stay at home and play board games while on vacation .<SEP>i like goofy the most . thank you i will think about it .<SEP>that is nice ! do you have a favorite activity ?
+U--that's so fun ! i love watching movies too . 
+(Ref: ['an old movie named casablanca !', ...])
+G--i love to play with my friends.
+(length: 8, latency: 0.109, BLEU: 0.251, ROUGE: 0.333, METEOR: 0.191)
+U'--that's so fun ! i love old books too . (cosine: 0.694)
+G'--i love to read. i love to read.
+Attack failed!
+(length: 10, latency: 0.111, BLEU: 0.197, ROUGE: 0.273, METEOR: 0.332)
+
+Dialogue history: <PS>i was raised on a horse farm . my family has raised horses for a generations . i want to be a lawyer . i dream of moving to the city . i'm from a small town .
+U--europe is so much fun ! 
+(Ref: ['no , but i like to go at least twice a year .', ...])
+G--i'm a lawyer. i'm a lawyer.
+(length: 8, latency: 0.137, BLEU: 0.251, ROUGE: 0.286, METEOR: 0.316)
+U'--europe is so beautiful too ! (cosine: 0.776)
+G'--i'm a lawyer. i'm a lawyer.
+Attack failed!
+(length: 8, latency: 0.148, BLEU: 0.251, ROUGE: 0.286, METEOR: 0.316)
+
+Dialogue history: <PS>i was raised on a horse farm . my family has raised horses for a generations . i want to be a lawyer . i dream of moving to the city . i'm from a small town .<SEP>europe is so much fun !<SEP>no , but i like to go at least twice a year .
+U--usa , they have good fish and chips here , which i love to eat ! 
+(Ref: ['travelling is great , i've been on many cruises', ...])
+G--i'm a lawyer, i'm a lawyer.
+(length: 8, latency: 0.159, BLEU: 0.191, ROUGE: 0.300, METEOR: 0.217)
+U'--usa , they have some fish and game here , which i want to do ! (cosine: 0.680)
+G'--i'm a lawyer, i'm a lawyer.
+Attack failed!
+(length: 8, latency: 0.140, BLEU: 0.191, ROUGE: 0.300, METEOR: 0.217)
+
+Dialogue history: <PS>i was raised on a horse farm . my family has raised horses for a generations . i want to be a lawyer . i dream of moving to the city . i'm from a small town .<SEP>europe is so much fun !<SEP>no , but i like to go at least twice a year .<SEP>usa , they have good fish and chips here , which i love to eat !<SEP>travelling is great , i've been on many cruises
+U--horses can be a lot of hard work . i am retired , trying to avoid work . 
+(Ref: ['i'll stay home and cook some paella today', ...])
+G--i'm a lawyer, i'm a lawyer, but i'm a lawyer.
+(length: 13, latency: 0.210, BLEU: 0.155, ROUGE: 0.385, METEOR: 0.354)
+U'--horses can be a lot of a work . i am retired , trying to do work . (cosine: 0.928)
+G'--i'm a lawyer, i'm a lawyer.
+(length: 8, latency: 0.166, BLEU: 0.202, ROUGE: 0.381, METEOR: 0.172)
+
+Dialogue history: <PS>i was raised on a horse farm . my family has raised horses for a generations . i want to be a lawyer . i dream of moving to the city . i'm from a small town .<SEP>europe is so much fun !<SEP>no , but i like to go at least twice a year .<SEP>usa , they have good fish and chips here , which i love to eat !<SEP>travelling is great , i've been on many cruises<SEP>horses can be a lot of hard work . i am retired , trying to avoid work .<SEP>i'll stay home and cook some paella today
+U--christopher columbus was my great great grandfather , he travelled a lot ! 
+(Ref: ['yes , better get to feeding the horses , i'll start cooking ! bye !', ...])
+G--i'm a lawyer, i'm a lawyer, i'm a lawyer.
+(length: 12, latency: 0.263, BLEU: 0.131, ROUGE: 0.273, METEOR: 0.243)
